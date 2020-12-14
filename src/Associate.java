@@ -48,7 +48,7 @@ public class Associate {
 
     // Create Random Password
     private String createRandomPassword(int passwordLength){
-        String passwordSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefhijklmnopqrstuvwxyz!@#$%^&*()";
+        String passwordSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefhijklmnopqrstuvwxyz!@#$%^&*";
         char[] password = new char[passwordLength];
 
         for (int i = 0; i < passwordLength; i++) {
